@@ -39,12 +39,20 @@
     text-decoration: none;
 }
 
+/* Updated styles for sidebar ul elements */
+.sidebar-pages-top ul,
+.sidebar-pages-bottom ul {
+    width: 100%; /* Ensure the ul takes full width */
+    padding-left: 0; /* Remove default padding from ul */
+}
+
 .sidebar-pages-top {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-bottom: 40px;    
+    margin-top: 30px;
 }
 
 .sidebar-pages-bottom {
@@ -57,11 +65,13 @@ ul {
     list-style-type: none;
 }
 
+/* Updated styles for li elements */
 li {
     margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    display: flex; /* Make each list item a flex container */
+    align-items: center; /* Vertically align SVG and anchor */
+    gap: 15px; /* Add space between icon and text */
+    padding-left: 30px; /* Align content with the sidebar title */
 }
 
 .header {
@@ -88,8 +98,6 @@ li {
     border: none;
     width: 47vw;
     height: 2.5vh;
-    /* Remove margin-top as align-items will handle vertical positioning */
-    /* margin-top: 30px; */
 }
 
 .notifications {
@@ -247,4 +255,8 @@ hr {
 
 .trending {
     margin-bottom: 18px;
+}
+
+.sidebar svg {
+    fill: white
 }
