@@ -26,10 +26,6 @@
     gap: 15px;
 }
 
-svg {
-    fill: white;
-}
-
 .sidebar-title h1 {
     text-align: center;
     padding-top: 15px;
@@ -79,19 +75,34 @@ li {
     
 }
 
+.search-bar {
+    display: flex; /* Make the search-bar a flex container */
+    align-items: center; /* Vertically align items in the center */
+    gap: 15px; /* Add some space between the SVG and the input */
+    padding-top: 30px;
+}
+
 .header-top input {
     background-color: #E2E8F0;
     border-radius: 15px;
     border: none;
     width: 47vw;
     height: 2.5vh;
-    margin-top: 30px;
+    /* Remove margin-top as align-items will handle vertical positioning */
+    /* margin-top: 30px; */
 }
 
-.header-top p {
-    margin-top: 30px;
-    margin-right: 13%;
+.notifications {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+
+.notifications p {
     font-weight: 700;
+    font-size: 16px;
 }
 
 .header-bottom {
@@ -160,16 +171,28 @@ li {
     padding: 25px;
     height: 13vh;
     margin-left: 5px;
+    position: relative;
 }
 
 .project h2 {
-    font-size: 18.72px;
+    font-size: 16px;
 
 }
 
 .project p {
     margin-top: 10px;
     color: #636363;
+}
+
+.project-inside .icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 25px;
+    padding-bottom: 30px;
 }
 
 .announcements {
