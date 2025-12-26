@@ -108,7 +108,7 @@ input {
     background-color: goldenrod;
     padding-left: 10px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .project {
@@ -127,7 +127,7 @@ input {
     margin: 15px;
     border-radius: 5px;
     padding: 20px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -164,7 +164,7 @@ hr {
     margin: 15px;
     border-radius: 5px;
     padding: 20px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 
