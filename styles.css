@@ -14,3 +14,52 @@
     background-color: rgb(11, 136, 181);
     color: white;
 }
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px 15px 35px;
+}
+
+input {
+    background-color: #D3D3D3;
+    border-radius: 20px;
+    border: 1px solid #D3D3D3;
+    height: 30px;
+    width: 40vw;
+}
+
+.greeting-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px 15px 35px;
+}
+
+.greeting-text p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.greeting-text h2 {
+    font-size: 27px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button {
+    background-color: rgb(11, 136, 181);
+    color: white;
+    border-radius: 20px;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(11, 136, 181);;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.information {
+    background-color: grey;
+}
