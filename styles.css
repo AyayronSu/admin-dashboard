@@ -61,5 +61,25 @@ input {
 }
 
 .information {
-    background-color: grey;
+    background-color: #D3D3D3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
+
+.project-container {
+    padding: 15px;
+
+}
+
+.your-projects {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
