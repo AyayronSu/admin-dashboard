@@ -13,6 +13,21 @@
 .sidebar {
     background-color: rgb(11, 136, 181);
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.sidebar-element {
+    display: flex;
+}
+
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .search {
