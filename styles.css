@@ -83,6 +83,19 @@ input {
     gap: 15px;
 }
 
+.project-outer {
+    background-color: goldenrod;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.project {
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    height: 20vh;
+}
+
 .announcements h3 {
     padding-left: 15px;
 }
